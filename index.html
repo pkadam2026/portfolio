@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prashant Kadam - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">Prashant Kadam</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>
+                    <span class="highlight">Prashant Kadam</span>
+                </h1>
+                <p class="role">Full Stack Developer | Software Engineer | Tech Innovator</p>
+                <p class="description">Building innovative solutions with modern technologies</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <p>I'm a passionate software engineer with expertise in full-stack development. With a strong foundation
+                    in modern web technologies and a commitment to writing clean, efficient code, I've successfully
+                    delivered numerous projects across various domains.</p>
+                <p>My journey in software development has equipped me with the skills to tackle complex problems and
+                    create scalable solutions. I'm particularly interested in leveraging emerging technologies to solve
+                    real-world challenges.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>HRS Grants (Huron)</h3>
+                    </div>
+                    <p class="project-description">HRS Grants project for managing fund distributions ef effectively</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">.NET Core</span>
+                        <span class="tech-tag">NextJs</span>
+                        <span class="tech-tag">PostGreSQL</span>
+                        <span class="tech-tag">AWS Services</span>
+                    </div>
+                    <!-- Optional project details list (edit items directly) -->
+                    <ul class="project-details" hidden>
+                        <li>Managed non-repayable fund distribution system for US nonprofits and institutions</li>
+                        <li>Designed and implemented modules for grant application proposals, budgets, and document
+                            management</li>
+                        <li>Designed and Implemented SF424 form management</li>
+                        <li>Developed secure role-based access controls for applicants, reviewers, and administrators.
+                        </li>
+                        <li>Supported production deployments and resolved high-priority defects in live environments
+                        </li>
+                        <li>Improved system performance and reduced processing time for grant submissions.</li>
+                        <li>Integrated SQS with backend services for document creation.</li>
+                        <li>As part of a microservices architecture, I contributed to multiple services beyond the
+                            Grants module. Additionally, I
+                            developed a custom MUI table component that supports complex calculations, which is also
+                            reused across other
+                            services.</li>
+                    </ul>
+                    <a href="javascript:void(0)" class="project-link" data-modal-title="HRS Grants (Huron)"
+                        data-modal-description="Grants in the USA are non-repayable funds provided by federal, state, or private entities to organizations (non-profits, universities, businesses) to support public projects and services. They are not generally available for personal use, with most federal opportunities listed on Grants.gov. Key types include competitive and formula grants, often requiring rigorous application processes.">
+                        View Project →</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Maersk Invoice Processor (Nalashaa)</h3>
+                    </div>
+                    <p class="project-description">The project focused on extracting historical billing data to enable seamless integration with a new system.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C# Web API</span>
+                        <span class="tech-tag">Angular</span>
+                        <span class="tech-tag">MS SQL</span>
+                    </div>
+                    <ul class="project-details" hidden>
+                        <li>Developed a data extraction system for Maersk to process legacy data stored in PDF and image formats,
+                            transforming unstructured documents into structured database records for integration with modern enterprise
+                            systems.
+                        </li>
+                        <li>Utilized iTextSharp to extract text from PDFs and Tesseract OCR for image-based document processing.
+                            Implemented Regex-based pattern recognition to parse and extract structured data, which was then stored in a
+                            relational database.</li>
+                    </ul>
+                    <a href="javascript:void(0)" class="project-link" data-modal-title="Maersk Invoice Processor (Nalashaa)"
+                        data-modal-description="The project focused on extracting historical billing data to enable seamless integration with a new system.">View
+                        Project →</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>POS Billing System (Quickbill)</h3>
+                    </div>
+                    <p class="project-description">POS Billing System project enhancing billing operations</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">.NET WinForms</span>
+                        <span class="tech-tag">Telerik controls</span>
+                        <span class="tech-tag">MS SQL</span>
+                    </div>
+                    <ul class="project-details" hidden>
+                        <li>Contributed to multiple billing modules, including Transactions, Reporting, and Settings</li>
+                        <li>I developed a system that uploads sales transaction backups to Google Drive during end- of-day closing. The backup
+can also be uploaded manually when required</li>
+                    </ul>
+                    <a href="javascript:void(0)" class="project-link" data-modal-title="POS Billing System (Quickbill)"
+                        data-modal-description="POS Billing System project enhancing billing operations">View
+                        Project →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technical Skills</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">C#</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">TypeScript</span>
+                        <span class="skill-item">SQL</span>
+                        <span class="skill-item">JSON</span>
+                        <span class="skill-item">YML</span>
+                        <span class="skill-item">XML</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Next.js</span>
+                        <span class="skill-item">React</span>
+                        <span class="skill-item">Angular</span>
+                        <span class="skill-item">HTML</span>
+                        <span class="skill-item">CSS</span>
+                        <span class="skill-item">SCSS</span>
+                        <span class="skill-item">Responsive Design</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">.NET Core</span>
+                        <span class="skill-item">RESTful APIs</span>
+                        <span class="skill-item">Database Design</span>
+                        <span class="skill-item">MSSQL</span>
+                        <span class="skill-item">PostgreSQL</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">Visual Studio</span>
+                        <span class="skill-item">AWS</span>
+                        <span class="skill-item">Azure CI/CD</span>
+                        <span class="skill-item">PGAdmin</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2>Professional Experience</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-date">2020 - Present</div>
+                    <div class="experience-content">
+                        <h3> Lead Software Engineer (Full Stack)</h3>
+                        <p class="company">Huron Eurasia India Pvt. Ltd</p>
+                        <p>A company providing innovative solutions for sectors such as healthcare and higher education.</p>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-date">2019 - 2020</div>
+                    <div class="experience-content">
+                        <h3>Software Engineer (Full Stack)</h3>
+                        <p class="company">Nalashaa Solutions Pvt. Ltd</p>
+                        <p>A software development company specializing in business solutions.</p>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-date">2017 - 2019</div>
+                    <div class="experience-content">
+                        <h3>Software Engineer (Full Stack)</h3>
+                        <p class="company">Quickbill Solutions Pvt. Ltd</p>
+                        <p>A technology company focused on financial software solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <div class="section-header">
+                <h2>Resume</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="resume-content">
+                <p>Download my resume to view work history, skills, and contact details.</p>
+                <a href="assets/Prashant_Kadam_Resume.pdf" class="btn btn-primary" download>Download Resume (PDF)</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Let's Connect</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <p>I'm always interested in hearing about new projects and opportunities.</p>
+                <div class="contact-links">
+                    <a href="mailto:prashantkadam550@gmail.com" class="contact-link">
+                        <span class="link-icon">📧</span>
+                        <span>Email</span>
+                    </a>
+                    <a href="https://github.com/pkadam2026" target="_blank" class="contact-link">
+                        <span class="link-icon">💻</span>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com/in/prashant-s-kadam" target="_blank" class="contact-link">
+                        <span class="link-icon">💼</span>
+                        <span>LinkedIn</span>
+                    </a>
+                    <!-- <a href="https://twitter.com" target="_blank" class="contact-link">
+                        <span class="link-icon">𝕏</span>
+                        <span>Twitter</span>
+                    </a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Prashant Kadam. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal" aria-hidden="true">
+        <div class="modal-overlay" data-close="true"></div>
+        <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" aria-label="Close modal">✕</button>
+            <h3 id="modalTitle" class="modal-title">Project Title</h3>
+            <p class="modal-description">Project description will appear here.</p>
+            <ul class="modal-details" aria-live="polite"></ul>
+            <div class="modal-tech"></div>
+            <div class="modal-actions">
+                <a href="#" class="btn btn-primary modal-visit" target="_blank" rel="noopener">Visit Project</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
